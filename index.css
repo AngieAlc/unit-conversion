@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+}
+
+button{
+    color: black; 
+    background-color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+h1{
+    color: white; 
+    padding: 20px; 
+}
+h2{
+    color: #5A537B; 
+}
+input{
+    color: white; 
+    border-color: white;
+    border-radius: 2px;
+    background: none;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.top{
+    height: 39%;
+    background-color: #6943FF;
+}
+.result{
+    color: black; 
+}
+
+.parent{
+    height: 61%;
+    background-color: #F4F4F4; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between; 
+}
+.child{
+    background-color: white;
+    margin: 20px; 
+    width: 80%;
+    height: 90px;
+    padding: 10px; 
+}
